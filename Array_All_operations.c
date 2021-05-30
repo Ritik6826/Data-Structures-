@@ -90,6 +90,7 @@ void deletion_at_end(int *arr, int size) //worst case o(1)
 void deletion_without_order(int *arr, int size, int index)
 {
     arr[index] = arr[size-1]; //just taking last element to index
+    arr[size -1]=arr[size];
 }
 int linear_search(int *arr, int size, int element) //worst case o(n)
 {
