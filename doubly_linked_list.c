@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//Searching is not a part of this program.
 /*here i used single pointer so i have to return head but if we don't wanna return anything
 then use double pointer and pass the adress of head*/
 
