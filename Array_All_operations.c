@@ -105,7 +105,7 @@ int linear_search(int *arr, int size, int element) //worst case o(n)
 }
 int binary_search(int *arr, int size, int element) //for ascending sorted array.o(logn)
 {
-    int low, mid, high;
+    int low, mid, high;//for descending sorted array low=mid-1;high=mid+1;
     low = 0;
     high = size - 1; 
     while (low <= high)
