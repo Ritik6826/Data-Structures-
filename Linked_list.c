@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+//Searching is not a part of this program.
 
 /*Note here in this program i personally used double pointer so that i don't need to return
 any value from function and the function choice is voide also.
